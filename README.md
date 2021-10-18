@@ -1,1 +1,1 @@
-# WAP
+# Webový aplikace
