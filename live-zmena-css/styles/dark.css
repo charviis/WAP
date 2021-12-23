@@ -1,0 +1,96 @@
+body {
+    background: rgba(0, 0, 0, 0.829);
+    font-family: Garamond, serif;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(155, 155, 155);
+}
+
+header{
+    font-size: 64px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(218, 218, 218, 0.863);
+}
+
+main{
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+h2{
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+p {
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+table{
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+ul{
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+a{
+    font-size: 32px;
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: match-parent;
+    align-items: match-parent;
+    text-align: match-parent;
+}
+
+button{
+    font-size: 18px;
+    font-family: Garamond, serif;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(4, 0, 255);
+    
+}
