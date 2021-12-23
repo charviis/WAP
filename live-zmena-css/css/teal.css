@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 255, 213, 0.829);
+    background: rgb(68, 116, 108);
     font-family: Garamond, serif;
 }
 
@@ -8,7 +8,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(145, 145, 145);
+    color: rgb(56, 56, 56);
 }
 
 header{
@@ -18,7 +18,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgba(97, 5, 184, 0.829);
+    color: rgba(10, 226, 255, 0.829);
 }
 
 main{
@@ -91,6 +91,6 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: blueviolet;
+    color: rgb(226, 43, 43);
     
 }

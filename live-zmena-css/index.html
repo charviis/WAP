@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=), initial-scale=1.0">
     <title>Live Změna CSS</title>
-    <link href="css/dark.css" rel="pagestyle"/>
+    <link id="dark" rel="stylesheet" type="text/css" href="css/dark.css" />
+    <link id="light" rel="stylesheet" type="text/css" href="css/light.css" />
+    <link id="teal" rel="stylesheet" type="text/css" href="css/teal.css" />
+    <link id="violet" rel="stylesheet" type="text/css" href="css/violet.css" />
     <script type="javascript" src="js/script.js"></script>
 </head>
 <body> 
-<button> </button>
+    <button onclick="toggleTheme('dark')">
+        Dark
+    </button>      
+    <button onclick="toggleTheme('light')">
+        Light
+    </button>      
+    <button onclick="toggleTheme('teal')">
+        Teal
+    </button>
+    <button onclick="toggleTheme('violet')">
+        Violet
+    </button>
+
             <header>Live Změna CSS</header>
                 
             <main> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque possimus reiciendis vero quisquam! Ducimus tempora culpa repudiandae delectus mollitia quam voluptates? Quos veritatis quis, recusandae labore aperiam hic fugit adipisci.</main>
