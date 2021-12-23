@@ -1,5 +1,5 @@
 body {
-    background: rgba(4, 0, 14, 0.829);
+    background: rgba(0, 255, 213, 0.829);
     font-family: Garamond, serif;
 }
 
@@ -87,10 +87,10 @@ a{
 button{
     font-size: 32px;
     font-family: Garamond, serif;
-    display: flex;
-    justify-content: match-parent;
-    align-items: match-parent;
-    text-align: match-parent;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: blueviolet;
     
 }

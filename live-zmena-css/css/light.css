@@ -87,10 +87,10 @@ a{
 button{
     font-size: 32px;
     font-family: Garamond, serif;
-    display: flex;
-    justify-content: match-parent;
-    align-items: match-parent;
-    text-align: match-parent;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: rgb(4, 0, 255);
     
 }
