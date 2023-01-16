@@ -1,0 +1,42 @@
+<?php
+
+function shortestPath($graph, $start, $end) {
+
+    $queue = [$start];
+    $visited = [$start => true];
+
+    while (!empty($queue)) {
+
+        $node = array_shift($queue);
+ 
+        if ($node === $end) {
+            return true;
+        }
+
+        foreach ($graph[$node] as $neighbor) { 
+            if (!isset($visited[$neighbor])) {
+                $visited[$neighbor] = true;
+                $queue[] = $neighbor;
+            }
+        }
+    }
+    return false;
+}
+
+$graph = [
+    'A' => ['B', 'C'],
+    'B' => ['A', 'D', 'E'],
+    'C' => ['A', 'F'],
+    'D' => ['B'],
+    'E' => ['B', 'F'],
+    'F' => ['C', 'E']
+];
+$start = 'A';
+$end = 'F'; 
+if(shortestPath($graph, $start, $end)){
+    echo "Path exists between {$start} and {$end}";
+}else{
+    echo "Path doesn't exist between {$start} and {$end}";
+}
+
+?>
